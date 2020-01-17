@@ -3,6 +3,8 @@ import './App.css';
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import Say from "./Say";
+import EventPractice from "./EventPractice";
+import EventPractice2 from "./EventPractice2";
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       </MyComponent>
       <Counter/>
       <Say/>
+      <EventPractice />
+      <EventPractice2/>
     </>
   );
 }
