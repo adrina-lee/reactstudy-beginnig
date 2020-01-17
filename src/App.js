@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import Say from "./Say";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         칠드런값
       </MyComponent>
       <Counter/>
+      <Say/>
     </>
   );
 }
