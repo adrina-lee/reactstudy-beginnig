@@ -10,6 +10,7 @@ import ScrollBox from "./ScrollBox";
 import IterationSample from "./IterationSample";
 import Info from "./hooks/Info";
 import Average from "./hooks/Average";
+import Grand from "./Grand";
 
 class App extends Component {
   render() {
@@ -34,6 +35,7 @@ class App extends Component {
         {/*<Say/>*/}
         {/*<EventPractice/>*/}
         {/*<EventPractice2/>*/}
+        {/*<Grand />*/}
       </>
     );
   }
