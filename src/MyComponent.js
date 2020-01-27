@@ -40,9 +40,9 @@ class MyComponent extends Component {
 }
 
 
-// MyComponent.defaultProps = {
-//   name: '기본 이름'
-// };
+MyComponent.defaultProps = {
+  name: '기본 이름'
+};
 //
 // MyComponent.propType = {
 //   name: PropTypes.string,

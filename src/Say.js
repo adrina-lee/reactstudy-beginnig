@@ -2,10 +2,11 @@ import React, {useState} from "react";
 
 const Say = () => {
   const [ message, setMessage ] = useState('');
+  const [ color, setColor ] = useState('black');
+
   const onClickEnter = () => setMessage('안녕하세요!');
   const onClickLeave = () => setMessage('안녕히 가세요!');
 
-  const [ color, setColor ] = useState('black');
 
   return (
     <div>

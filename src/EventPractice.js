@@ -10,6 +10,7 @@ class EventPractice extends Component {
   handleChange = (e) => {
     this.setState({
       [e.target.name] : e.target.value
+      // message : e.target.value
     })
   };
 
@@ -31,6 +32,8 @@ class EventPractice extends Component {
     return (
       <div>
         <h1>이벤트 연습</h1>
+        <input onChange={(e)=>console.log(e.target.value)}
+        />
         <input
           value={this.state.message}
           type="text"
